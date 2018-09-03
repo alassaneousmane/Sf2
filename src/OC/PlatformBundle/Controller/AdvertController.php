@@ -14,6 +14,13 @@ class AdvertController extends Controller
 
         return $this->render('@OCPlatform/Default/index.html.twig');
     }
+
+
+    public function contactAction()
+    {
+
+        return $this->render('@OCPlatform/Advert/contact.html.twig');
+    }
 }
 
 
