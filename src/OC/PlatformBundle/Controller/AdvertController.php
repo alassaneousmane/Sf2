@@ -16,6 +16,16 @@ class AdvertController extends Controller
     }
 
 
+
+    public function listAction() {
+
+    	return $this->render('@OCPlatform/Advert/advert.html.twig');
+    }
+
+    public function signupAction() {
+    	return $this->render('@OCPlatform/Advert/signup.html.twig');
+    }
+
     public function contactAction()
     {
 

@@ -2,6 +2,16 @@ oc_platform_homepage:
     path:    /
     defaults: { _controller: OCPlatformBundle:Default:index }
 
+oc_platform_advert_list:
+    path:    /liste-des-annonces
+    defaults:
+        _controller: OCPlatformBundle:Advert:list
+
+oc_platform_signup:
+    path:    /sincrire
+    defaults:
+        _controller: OCPlatformBundle:Advert:signup
+
     
 hello_the_world:
     path:    /hello-the-world
